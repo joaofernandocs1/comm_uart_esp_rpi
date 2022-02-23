@@ -1,0 +1,14 @@
+rec_jpg2open:
+
+	huff_bytes = rec_array = bytearray(default_packet_size)
+	img_bytes = fin_array = bytearray(int(buffSize))
+
+rec_jpg2txt:
+
+	buff_array = rec_array = np.zeros(default_packet_size, dtype=np.uint8)
+	img_array = fin_array = np.zeros(buffSize, dtype=np.uint8)
+
+rec_jpg2bytes:
+
+	huff_bytes = rec_array = bytearray(default_packet_size)
+	img_bytes = fin_array = bytearray(int(buffSize))
